@@ -32,8 +32,8 @@
   gesture-detector id="scene"
   loading-screen="enabled: true;"
   >
-
 <a-assets><a-asset-item id="ara" src="../gltf/ara/ara.gltf" preload="auto"></a-asset-item></a-assets>
+<a-light type="ambient" color="#FFF" intensity="5.0"></a-light>
 
         <a-marker type="barcode" value="1"
         raycaster="objects: .clickable"
@@ -45,9 +45,9 @@
         <a-entity
           id="ara-model"
           gltf-model="#ara"
-          position="0 1 0"
-          rotation="0 180 0"
-          scale="50 50 50"
+          position="0 0 0"
+          rotation="0 0 0"
+          scale="10 10 10"
           class="clickable"
           gesture-handler
         >
