@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Ara Vissaium | Romanos: Grandes Construtores | PES | Polo Arqueológico de Viseu</title>
+  <meta name="description" content="Primeiros Agricultores">
+  <meta name="author" content="Polo Arqueológico de Viseu">
+    <script src="../assets/aframe.min.js"></script>
+    <script src="../assets/aframe-ar.js"></script>
+    <script src="../assets/gesture-detector.js"></script>
+    <script src="../assets/gesture-handler.js"></script>
+	<script src="../assets/aframe-shadow-plane.js"></script>
+	<script src="../assets/aframe-extras.loaders.min.js"></script>
+    <link href="../assets/style.css" type="text/css" rel="stylesheet" />
+    <script src="../assets/init.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PVYFN3N2F8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PVYFN3N2F8');
+</script>
+</head>
+<body style="margin : 0px; overflow: hidden;">
+
+  <a-scene embedded
+  arjs="trackingMethod: best; selectCamera: true; debugUIEnabled: false;  detectionMode: mono_and_matrix; matrixCodeType: 3x3; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960;"
+  renderer="logarithmicDepthBuffer: true; antialias: true; colorManagement: true; sortObjects: true; physicallyCorrectLights: false;"
+  vr-mode-ui="enabled: false"
+  gesture-detector id="scene"
+  loading-screen="enabled: true;"
+  >
+
+<a-assets><a-asset-item id="ara" src="../gltf/ara/ara.gltf" preload="auto"></a-asset-item></a-assets>
+
+        <a-marker type="barcode" value="1"
+        raycaster="objects: .clickable"
+        emitevents="true"
+        cursor="fuse: false; rayOrigin: mouse;"
+        id="markerA"
+        smooth='true' smoothCount='8' smoothThreshold='7' smoothTolerance="0.0001"
+      >
+        <a-entity
+          id="ara-model"
+          gltf-model="#ara"
+          position="0 1 0"
+          rotation="0 180 0"
+          scale="50 50 50"
+          class="clickable"
+          gesture-handler
+        >
+        </a-entity>
+      </a-marker>
+
+<a-entity camera></a-entity>
+</a-scene></body></html>
