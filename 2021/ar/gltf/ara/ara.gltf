@@ -96,70 +96,70 @@
         {
             "bufferView" : 0,
             "componentType" : 5126,
-            "count" : 521928,
+            "count" : 107390,
             "max" : [
-                0.22922450304031372,
-                0.46994227170944214,
-                0.1913914680480957
+                0.22926051914691925,
+                0.46989861130714417,
+                0.19145755469799042
             ],
             "min" : [
-                -0.24338003993034363,
-                -0.5573784708976746,
-                -0.2272631824016571
+                -0.24329349398612976,
+                -0.5573800802230835,
+                -0.22735318541526794
             ],
             "type" : "VEC3"
         },
         {
             "bufferView" : 1,
             "componentType" : 5126,
-            "count" : 521928,
+            "count" : 107390,
             "type" : "VEC3"
         },
         {
             "bufferView" : 2,
             "componentType" : 5126,
-            "count" : 521928,
+            "count" : 107390,
             "type" : "VEC2"
         },
         {
             "bufferView" : 3,
             "componentType" : 5123,
-            "count" : 521928,
+            "count" : 107390,
             "normalized" : true,
             "type" : "VEC4"
         },
         {
             "bufferView" : 4,
             "componentType" : 5125,
-            "count" : 537072,
+            "count" : 107412,
             "type" : "SCALAR"
         }
     ],
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 6263136,
+            "byteLength" : 1288680,
             "byteOffset" : 0
         },
         {
             "buffer" : 0,
-            "byteLength" : 6263136,
-            "byteOffset" : 6263136
+            "byteLength" : 1288680,
+            "byteOffset" : 1288680
         },
         {
             "buffer" : 0,
-            "byteLength" : 4175424,
-            "byteOffset" : 12526272
+            "byteLength" : 859120,
+            "byteOffset" : 2577360
         },
         {
             "buffer" : 0,
-            "byteLength" : 4175424,
-            "byteOffset" : 16701696
+            "byteLength" : 859120,
+            "byteOffset" : 3436480
         },
         {
             "buffer" : 0,
-            "byteLength" : 2148288,
-            "byteOffset" : 20877120
+            "byteLength" : 429648,
+            "byteOffset" : 4295600
         }
     ],
     "samplers" : [
@@ -170,7 +170,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 23025408,
+            "byteLength" : 4725248,
             "uri" : "ara.bin"
         }
     ]

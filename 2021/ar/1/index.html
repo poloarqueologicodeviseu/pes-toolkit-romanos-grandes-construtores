@@ -32,27 +32,29 @@
   gesture-detector id="scene"
   loading-screen="enabled: true;"
   >
+
+
 <a-assets><a-asset-item id="ara" src="../gltf/ara/ara.gltf" preload="auto"></a-asset-item></a-assets>
-<a-light type="ambient" color="#FFF" intensity="5.0"></a-light>
+<a-light type="ambient" color="#FFF" intensity="3.0"></a-light>
 
         <a-marker type="barcode" value="1"
         raycaster="objects: .clickable"
         emitevents="true"
         cursor="fuse: false; rayOrigin: mouse;"
         id="markerA"
-        smooth='true' smoothCount='8' smoothThreshold='7' smoothTolerance="0.0001"
+        smooth="true" smoothCount="10" smoothThreshold="5" smoothTolerance="0.01"
       >
         <a-entity
           id="ara-model"
           gltf-model="#ara"
           position="0 0 0"
           rotation="0 0 0"
-          scale="10 10 10"
+          scale="5 5 5"
           class="clickable"
           gesture-handler
         >
         </a-entity>
       </a-marker>
 
-<a-entity camera></a-entity>
+<a-entity camera ></a-entity>
 </a-scene></body></html>
