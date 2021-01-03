@@ -1,0 +1,15 @@
+.a-loader-title {
+  background-color: rgba(0,0,0,0.5);
+	font-family: sans-serif,monospace;
+	text-align: center;
+	font-size: 2em;
+	height: 100vh;
+	font-weight: 300;
+	line-height: 50px;
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 0;
+	color: #fff !important;
+	padding-top: 20vh;
+}
