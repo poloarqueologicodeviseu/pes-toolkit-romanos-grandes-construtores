@@ -1,0 +1,177 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.4.40",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "ara",
+            "translation" : [
+                0.002362549304962158,
+                0.5573692917823792,
+                -0.07257219403982162
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "ara",
+            "normalTexture" : {
+                "index" : 0,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "metallicRoughnessTexture" : {
+                    "index" : 2,
+                    "texCoord" : 0
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "ara2.003",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2,
+                        "COLOR_0" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "normal_baked_2k",
+            "uri" : "normal_baked_2k.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "diffuse_baked_2k",
+            "uri" : "diffuse_baked_2k.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "roughness_baked_2k",
+            "uri" : "roughness_baked_2k.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 521928,
+            "max" : [
+                0.22922450304031372,
+                0.46994227170944214,
+                0.1913914680480957
+            ],
+            "min" : [
+                -0.24338003993034363,
+                -0.5573784708976746,
+                -0.2272631824016571
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 521928,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 521928,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 521928,
+            "normalized" : true,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5125,
+            "count" : 537072,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 6263136,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6263136,
+            "byteOffset" : 6263136
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4175424,
+            "byteOffset" : 12526272
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4175424,
+            "byteOffset" : 16701696
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2148288,
+            "byteOffset" : 20877120
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9986
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 23025408,
+            "uri" : "ara.bin"
+        }
+    ]
+}
