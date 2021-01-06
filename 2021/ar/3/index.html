@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Via Romana | Romanos: Grandes Construtores | PES | Polo Arqueológico de Viseu</title>
+  <title>Terra Sigillata | Romanos: Grandes Construtores | PES | Polo Arqueológico de Viseu</title>
   <meta name="description" content="Romanos: Grandes Construtores">
   <meta name="author" content="Polo Arqueológico de Viseu">
     <script src="../assets/aframe.min.js"></script>
@@ -31,8 +31,8 @@ vr-mode-ui="enabled: false"
 gesture-detector id="scene"
 loading-screen="enabled: true;"
 >
-<a-assets><a-asset-item id="via" src="../gltf/via-romana/via.gltf" preload="auto"></a-asset-item></a-assets>
-        <a-marker type="barcode" value="2"
+<a-assets><a-asset-item id="sigillata" src="../gltf/sigillata/sigillata.gltf" preload="auto"></a-asset-item></a-assets>
+        <a-marker type="barcode" value="3"
         raycaster="objects: .clickable"
         emitevents="true"
         cursor="fuse: false; rayOrigin: mouse;"
@@ -40,8 +40,8 @@ loading-screen="enabled: true;"
   smooth='true' smoothCount='8' smoothThreshold='7' smoothTolerance="0.0001"
       >
         <a-entity
-          id="via-model"
-          gltf-model="#via"
+          id="sigillata-model"
+          gltf-model="#sigillata"
           position="0 0 0"
           rotation="0 0 0"
           scale="1 1 1"
