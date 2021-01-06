@@ -26,7 +26,7 @@
 <body style="margin : 0px; overflow: hidden;">
 <a-scene embedded
 arjs="trackingMethod: best; selectCamera: true; debugUIEnabled: false;  detectionMode: mono_and_matrix; matrixCodeType: 3x3; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960;"
-renderer="logarithmicDepthBuffer: true; antialias: true; colorManagement: false; sortObjects: true; physicallyCorrectLights: false;"
+renderer="logarithmicDepthBuffer: true; antialias: true; colorManagement: true; sortObjects: true; physicallyCorrectLights: true;"
 vr-mode-ui="enabled: false"
 gesture-detector id="scene"
 loading-screen="enabled: true;"
@@ -44,7 +44,7 @@ loading-screen="enabled: true;"
           gltf-model="#sigillata"
           position="0 0 0"
           rotation="0 0 0"
-          scale="1 1 1"
+          scale="3 3 3"
           class="clickable"
           gesture-handler
         >
