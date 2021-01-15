@@ -32,10 +32,7 @@
                     "texCoord" : 0
                 },
                 "metallicFactor" : 0,
-                "metallicRoughnessTexture" : {
-                    "index" : 2,
-                    "texCoord" : 0
-                }
+                "roughnessFactor" : 0.5
             }
         }
     ],
@@ -64,10 +61,6 @@
         {
             "sampler" : 0,
             "source" : 1
-        },
-        {
-            "sampler" : 0,
-            "source" : 2
         }
     ],
     "images" : [
@@ -80,11 +73,6 @@
             "mimeType" : "image/jpeg",
             "name" : "diffuse2_baked_2k",
             "uri" : "diffuse2_baked_2k.jpg"
-        },
-        {
-            "mimeType" : "image/png",
-            "name" : "roughness_baked_2k",
-            "uri" : "roughness_baked_2k.png"
         }
     ],
     "accessors" : [
